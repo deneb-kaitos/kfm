@@ -1,0 +1,23 @@
+{
+  "name": "@deneb-kaitos/kfm",
+  "version": "0.0.0",
+  "description": "kfm",
+  "engines": {
+    "node": "=15.0.1",
+    "pnpm": "=5.10.2"
+  },
+  "engineStrict": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deneb-kaitos/kfm.git"
+  },
+  "keywords": [
+    "kfm"
+  ],
+  "author": "Dmitry N. Medvedev <dmitry.medvedev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deneb-kaitos/kfm/issues"
+  },
+  "homepage": "https://github.com/deneb-kaitos/kfm#readme"
+}
