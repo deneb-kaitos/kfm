@@ -1,10 +1,10 @@
 dist: bionic
 language: node_js
 node_js:
-  - 15.0.1
+  - 15.1.0
 os: linux
 before_install:
-  - curl -L https://raw.githubusercontent.com/pnpm/self-installer/master/install.js | PNPM_VERSION=5.10.2 node
+  - curl -L https://raw.githubusercontent.com/pnpm/self-installer/master/install.js | PNPM_VERSION=5.10.4 node
   - pnpm config set store-dir ~/.pnpm-store
   - pnpm --version
 install:

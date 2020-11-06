@@ -8,3 +8,8 @@
 ## TODO
 
 * receive TOKEN in exchange to a PIN
+  * generate a PIN (use libsodium) (see [README.md](sources/libs/libpintoken/README.md))
+  * generate a TOKEN for the PIN (use libsodium) (see [README.md](sources/libs/libpintoken/README.md))
+  * create PIN:TOKEN pair (use libsodium) (see [README.md](sources/libs/libpintoken/README.md))
+  * write PIN:TOKEN to Redis, set its TTL to some value
+  * read TOKEN from Redis cancelling its TTL given a PIN

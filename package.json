@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "description": "kfm",
   "engines": {
-    "node": "=15.0.1",
-    "pnpm": "=5.10.2"
+    "node": "=15.1.0",
+    "pnpm": "=5.10.4"
   },
   "engineStrict": true,
   "repository": {
