@@ -17,6 +17,7 @@ describe('LibPin', () => {
     const pinExpectedLength = 6;
     const pin = await createPin(pinExpectedLength);
 
+    expect(pin).to.be.frozen;
     expect(pin.length).to.equal(pinExpectedLength);
   });
 });

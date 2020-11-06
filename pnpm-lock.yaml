@@ -69,7 +69,7 @@ importers:
       sapper: ^0.28.0
       sirv: ^1.0.0
       svelte: ^3.17.3
-  sources/libs/libpintoken:
+  sources/libs/libpin:
     dependencies:
       libsodium-wrappers: 0.7.8
     devDependencies:
@@ -93,6 +93,34 @@ importers:
       eslint-plugin-node: ^11.1.0
       libsodium-wrappers: ^0.7.8
       mocha: ^8.2.1
+  sources/libs/libtoken:
+    dependencies:
+      '@deneb-kaitos/libpin': 'link:../libpin'
+      libsodium-wrappers: 0.7.8
+    devDependencies:
+      c8: 7.3.5
+      chai: 4.2.0
+      coveralls: 3.1.0
+      cross-env: 7.0.2
+      eslint: 7.12.1
+      eslint-config-airbnb-base: 14.2.0_eslint@7.12.1
+      eslint-plugin-chai-friendly: 0.6.0_eslint@7.12.1
+      eslint-plugin-node: 11.1.0_eslint@7.12.1
+      mocha: 8.2.1
+      uuid: 8.3.1
+    specifiers:
+      '@deneb-kaitos/libpin': 'workspace:^0.0.0'
+      c8: ^7.3.5
+      chai: ^4.2.0
+      coveralls: ^3.1.0
+      cross-env: ^7.0.2
+      eslint: ^7.12.1
+      eslint-config-airbnb-base: ^14.2.0
+      eslint-plugin-chai-friendly: ^0.6.0
+      eslint-plugin-node: ^11.1.0
+      libsodium-wrappers: ^0.7.8
+      mocha: ^8.2.1
+      uuid: ^8.3.1
 lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.10.4:
@@ -3936,6 +3964,11 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+  /uuid/8.3.1:
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-FOmRr+FmWEIG8uhZv6C2bTgEVXsHk08kE7mPlrBbEe+c3r9pjceVPgupIfNIhc4yx55H69OXANrUaSuu9eInKg==
   /v8-compile-cache/2.2.0:
     dev: true
     resolution:
